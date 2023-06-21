@@ -7,7 +7,7 @@ const Exit = () => {
     <div>
       출입구
       <div>
-        <MyButton text={"처음으로"} onClick={() => navigate("/")} />
+        <MyButton text={"자리로 돌아가기"} onClick={() => navigate("/")} />
       </div>
     </div>
   );

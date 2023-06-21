@@ -7,7 +7,7 @@ const CeoRoom = () => {
     <div className="CeoRoom">
       대표이사실
       <div>
-        <MyButton text={"처음으로"} onClick={() => navigate("/")} />
+        <MyButton text={"자리로 돌아가기"} onClick={() => navigate("/")} />
       </div>
     </div>
   );
