@@ -1,5 +1,16 @@
+import { useNavigate } from "react-router-dom";
+import MyButton from "../Component/MyButton";
+
 const Toilet = () => {
-  return <div>화장실</div>;
+  const navigate = useNavigate();
+  return (
+    <div className="Toilet">
+      화장실
+      <div>
+        <MyButton text={"처음으로"} onClick={() => navigate("/")} />
+      </div>
+    </div>
+  );
 };
 
 export default Toilet;

@@ -20,6 +20,9 @@ const Cafeteria = () => {
         text={"커피머신"}
         onClick={() => navigate("/cafeteria/coffeeMachine")}
       />
+      <div>
+        <MyButton text={"처음으로"} onClick={() => navigate("/")} />
+      </div>
     </div>
   );
 };
